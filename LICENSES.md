@@ -60,7 +60,6 @@ Es una licencia permisiva que permite uso comercial, modificación, distribució
 
 **Descripcion:** PostgreSQL es un sistema de gestión de bases de datos relacional muy robusto y ampliamente usado.
 
-
 **Enlace a fuente oficial:** https://www.postgresql.org/about/licence/
 
 **Informacion de la licencia:** https://www.gnu.org/licenses/lgpl-3.0.html
