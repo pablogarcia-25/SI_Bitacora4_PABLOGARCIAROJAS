@@ -10,8 +10,7 @@ Es una licencia permisiva que permite uso comercial, modificación, distribució
 **Enlace a fuente oficial:** https://guacamole.apache.org
 
 **Informacion de la licencia:** https://appmaster.io/es/blog/que-es-la-licencia-bsd
-
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Apache_Guacamole_logo.png" width="100"/>
 
 ## 2. DOCKER:
 **Software:** Docker Engine
