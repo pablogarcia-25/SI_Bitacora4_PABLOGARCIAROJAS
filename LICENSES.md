@@ -23,6 +23,16 @@ Es una licencia permisiva que permite uso comercial, modificación, distribució
 
 **Informacion de la licencia:** https://invgate.com/es/itdb/docker-enterprise
 
+## OPENSSH
+**Software:** OpenSSH
+
+**Licencia:** Licencia estilo BSD, es permisiva ya que permite libre uso, modificación y distribución de software.
+
+**Descripcion:** Es un softaware libre y de código abierto, se usa para realizar comunicaciones cifradas a través de una red
+
+**Enlace a fuente oficial:** https://www.docker.com/
+
+**Informacion de la licencia:** https://invgate.com/es/itdb/docker-enterprise
 
 
 
