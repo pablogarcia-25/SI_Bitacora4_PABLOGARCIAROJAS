@@ -32,11 +32,11 @@ Es una licencia permisiva que permite uso comercial, modificación, distribució
 
 **Licencia:** Licencia estilo BSD, es permisiva ya que permite libre uso, modificación y distribución de software.
 
-**Descripcion:** Es un softaware libre y de código abierto, se usa para realizar comunicaciones cifradas a través de una red
+**Descripcion:** Es un software libre y de código abierto, se usa para realizar comunicaciones cifradas a través de una red
 
 **Enlace a fuente oficial:** https://www.docker.com/
 
-**Informacion de la licencia:** https://invgate.com/es/itdb/docker-enterprise
+**Informacion de la licencia:** https://appmaster.io/es/blog/licencias-de-codigo-abierto
 
 <img src="https://blog.desdelinux.net/wp-content/uploads/2020/09/openssh-logo-420x162.png" width="150"/>
 
