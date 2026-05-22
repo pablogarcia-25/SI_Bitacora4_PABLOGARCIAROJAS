@@ -55,6 +55,15 @@ Nuestro equipo va a utilizar **Discord** para comunicarse las incidencias técni
 
 ## 4. Justificación Científica
 
+**Eleccion del servidor:** si usamos un servidor en la nube, nos permite adaptar los recursos del ordenador que tenemos dependiendo de lo que necesite la app en ese momento, por lo que, no gastamos más y aseguramos que nuestro sistema funcione perfectamente.
+
+**Seguridad en el despliegue:** usamos SFTP ya que tenia una gran seguridad y además es muy cómodo de usar. Si ciframos la conexión de extremo a extremo con las claves SSH, hacemos que nadie intercepte o robe nuestro codigo cuando subimos al servidor.ç
+
+**Monitorización:** si automatizamos las alertas para que nos avisen de los errores o si pasa del 85% hacemos que podamos adelantarnos a problemas antes de que afecte a la experiencia de los usuarios.
+
+## Referencias
+[1] Equipo editorial de IONOS, "SFTP (SSH File Transfer Protocol)," IONOS Digital Guide, 22 de marzo de 2023. [En línea]. Disponible en: https://www.ionos.com/digitalguide/server/know-how/sftp-ssh-file-transfer-protocol/
 
 
+ 
 
