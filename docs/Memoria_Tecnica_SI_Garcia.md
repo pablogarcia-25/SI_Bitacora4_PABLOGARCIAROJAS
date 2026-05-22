@@ -6,13 +6,13 @@
 
 ## FECHA: 15/05/2026
 
-[**1\. Análisis de necesidades	3**](#análisis-de-necesidades)
+[**1\. Análisis de necesidades**](#análisis-de-necesidades)
 
-[2\. ¿Qué problema de la empresa resolvemos con Guacamole y Docker?	3](#¿qué-problema-de-la-empresa-resolvemos-con-guacamole-y-docker?)
+[2\. ¿Qué problema de la empresa resolvemos con Guacamole y Docker?](#¿qué-problema-de-la-empresa-resolvemos-con-guacamole-y-docker?)
 
-[3\. ¿Por qué elegimos esta solución y no conectar directamente por RDP a cada máquina?	3](#¿por-qué-elegimos-esta-solución-y-no-conectar-directamente-por-rdp-a-cada-máquina?)
+[3\. ¿Por qué elegimos esta solución y no conectar directamente por RDP a cada máquina?](#¿por-qué-elegimos-esta-solución-y-no-conectar-directamente-por-rdp-a-cada-máquina?)
 
-[**2. Estimación de Costes de Infraestructura 3**](#análisis-de-necesidades)
+[**2. Estimación de Costes de Infraestructura**](#análisis-de-necesidades)
 
 ## 
 
@@ -43,5 +43,18 @@ Con Guacamole todo se estandariza: una sola interfaz, una sola puerta de entrada
 
 
 ## 2. Estimación de Costes de Infraestructura
+Se ha realizado una estimacion de nuestros costes en infraestructura basado en DigitalOcean Droplet.
 En la siguiente imagen, se muestra el presupuesto realizado en una hoja de calculo, realizado con diferentes funciones de esta como pueden ser calcular el subtotal, IVA, etc...
 ![ImagenPresupuesto](../assets/presupuestoInfraestructura.png)
+
+## 3. Estrategia de Despliegue y Comunicación
+Para pasar nuestro código desde los ordenadores de casa al servidor real de DigitalOcean vamos a utilizar **SFTP (SSH File Transfer Protocol)** ya que toda la conexión va cifrada de extremo a extremo a través del puerto 22 usando las claves SSH, por lo que es mucho más seguro. Además, si configuramos el SFTP nos servirá por si queremos automatizar los despliegues directamente desde nuestro repositorio.[1]
+
+
+Nuestro equipo va a utilizar **Discord** para comunicarse las incidencias técnicas o las alertas automáticas que podamos recibir. Dentro de nuestro discord vamos a tener un bot automático conectado a las alertas del servidor. Si la máquina se cae, se queda sin espacio en el disco o la CPU se pone a más del 85%, el bot nos mandará un mensaje instantáneo a nuestro canal de discord para que podamos arreglar el problema antes de que los usuarios se den cuenta.
+
+## 4. Justificación Científica
+
+
+
+
